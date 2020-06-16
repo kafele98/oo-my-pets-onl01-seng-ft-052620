@@ -8,6 +8,6 @@ class Cat
   end
 
   def owner 
-    @owner 
+    @@owners 
   end 
 end
