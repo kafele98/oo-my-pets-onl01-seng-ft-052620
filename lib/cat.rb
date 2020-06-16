@@ -7,7 +7,4 @@ class Cat
     @@owner 
   end
 
-  def mood
-    @mood
-  end
 end
