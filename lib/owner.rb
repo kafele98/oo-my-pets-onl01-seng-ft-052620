@@ -37,9 +37,9 @@ class Owner
      Cat.new(name, self)
     end 
   
-  def buy_dog(dog_name)
-    pets[:dogs] << Dog.new(dog_name)
-  end
+  def buy_dog(name)
+    Dog.new(name, self)
+  end 
   
   def walk_dogs
     pets[:dogs].each do |dog|
