@@ -66,3 +66,7 @@ class Owner
   
   
 end
+
+
+
+owner = Owner.new 
