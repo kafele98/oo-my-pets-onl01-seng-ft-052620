@@ -4,7 +4,7 @@ class Dog
 
   def initialize(name, new_owner)
     @name = name
-    @owner = new_owner 
+    @@owners= new_owner 
   end
   
   def owner 
