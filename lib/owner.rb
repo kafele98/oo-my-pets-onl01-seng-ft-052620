@@ -68,6 +68,3 @@ class Owner
 end
 
 
-
-owner = Owner.new 
-owner.name("Hermione")
