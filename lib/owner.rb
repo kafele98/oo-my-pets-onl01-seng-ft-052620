@@ -55,7 +55,18 @@ class Owner
     end
   end
   
-  
+  def sell_pets 
+    self.cats.each do |cat|
+      self.cats.delete(cat)
+      cat.owner = nil 
+      cat.mood = "nervous"
+    end 
+    self.dogs.each do |dog|
+      self.dogs.delete(dog)
+      dog.owner = nil 
+      dog.mood = "nervous"
+    end 
+  end 
   
   def list_pets
     "I have #{pets[:dogs].count} dog(s), and #{pets[:cats].count} cat(s)."
