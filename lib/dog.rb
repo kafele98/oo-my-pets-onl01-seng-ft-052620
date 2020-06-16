@@ -8,6 +8,6 @@ class Dog
   end
   
   def owner 
-    @owner 
+    @@owners 
   end 
 end
